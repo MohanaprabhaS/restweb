@@ -1,0 +1,280 @@
+menu.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP'S LITE- Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            box-sizing: border-box;
+        }
+
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+
+        header {
+            background: #054c04;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #f9f9f9;
+            font-weight: bold;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        header nav a:hover {
+            color: #ffdd57;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+        }
+
+        .menu-container {
+            padding: 20px;
+            background: #f9f9f9;
+            text-align: center;
+        }
+
+        .menu-container h1 {
+            font-size: 2rem;
+            color: #054c04;
+            margin-bottom: 15px;
+        }
+
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .menu-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-details {
+            padding: 10px;
+        }
+
+        .menu-details h3 {
+            font-size: 1.2rem;
+            color: #054c04;
+            margin-bottom: 8px;
+        }
+
+        .menu-details p {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .menu-details .price {
+            font-weight: bold;
+            font-size: 1rem;
+            color: #ff5722;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 10px;
+        }
+
+        footer a {
+            color: #ff5722;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ffdd57;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.2rem;
+            }
+
+            .menu-items {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .menu-item {
+                width: 100%;
+            }
+
+            header nav a {
+                margin: 0 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MP'S LITE</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">contact</a>
+            <a href="admin.html">Administration</a>
+        </nav>
+    </header>
+
+    <div class="menu-container">
+        <h1>Our Menu</h1>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="Biryani.png" alt="Biryani">
+                <div class="menu-details">
+                    <h3> Hyderabad Biryani</h3>
+                    <p>Delicious biryani mixed  aromatic spices, the tender meat and the fragrant rice.</p>
+                    <p class="price">₹170/-</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="Curd rice.png" alt="Curd rice">
+                <div class="menu-details">
+                    <h3> Tasty Curd rice</h3>
+                    <p>Curd rice is topped with urad dal,pomegranate with curry leaves.</p>
+                    <p class="price">₹50/-</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="Brownie.png" alt="Brownie">
+                <div class="menu-details">
+                    <h3>Homemade Brownie</h3>
+                    <p>Brownie topped with coffee chip ice cream, chocolate sauce, and your favorite sundae toppings.</p>
+                    <p class="price">₹100/-</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="Dosa.jpg" alt="Dosa">
+                <div class="menu-details">
+                    <h3>Crispy dosa</h3>
+                    <p>Crispy dosa with yummy taste.</p>
+                    <p class="price">₹150/-</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="Pani puri.png" alt="Pani puri">
+                <div class="menu-details">
+                    <h3>Bengali Pani puri</h3>
+                    <p> It is made up of small, hollow, fried wheat and/or semolina shell filled with spiced mashed potatoes.</p>
+                    <p class="price">₹150/-</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="Rasagulla.jpg" alt="Rasagulla">
+                <div class="menu-details">
+                    <h3>Delicious rasagulla</h3>
+                    <p>Rasgulla is a milk based sweet made by curdling milk.</p>
+                    <p class="price">₹180/-</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="Falooda.jpg" alt="Faloda">
+                <div class="menu-details">
+                    <h3>Delicious falooda</h3>
+                    <p>Falooda is Ice cream dessert made with vermicelli, jelly, rose syrup, sabja seeds, milk and ice cream.</p>
+                    <p class="price">₹180/-</p>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <img src="idly.png" alt="Idly">
+                <div class="menu-details">
+                    <h3>Idly</h3>
+                    <p>Idli is a soft & fluffy steamed cake made with fermented rice & lentil batter. </p>
+                    <p class="price">₹70/-</p>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <img src="fried rice.jpg" alt="Fried rice">
+                <div class="menu-details">
+                    <h3>spicy fried rice</h3>
+                    <p>Fried Rice recipe is made with a hearty mix of fresh vegetables, green onions, seasonings and spices.</p>
+                    <p class="price">₹120/-</p>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <img src="fish fry.jpg" alt="Fish fry">
+                <div class="menu-details">
+                    <h3>Fish fry</h3>
+                    <p>The fish marination is made with spices, ginger, garlic, curry leaves, lemon. </p>
+                    <p class="price">₹200/-</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="jar cake.jpg" alt="Jar cake">
+                <div class="menu-details">
+                    <h3>Classy jar cake</h3>
+                    <p>Cakes in a Jar that are filled with deconstructed cakes that are jam-packed with delicious flavor combinations..</p>
+                    <p class="price">₹180/-</p>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <img src="minimeals.jpg" alt="Minimeals">
+                <div class="menu-details">
+                    <h3>yummy minimeals</h3>
+                    <p>Mini Meals include Chappati ,Sambar Rice, Curd Rice, Variety Rice,Payasam,etc  .</p>
+                    <p class="price">₹180/-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MP'S LITE. All rights reserved. | <a href="home.html">Back to Home</a></p>
+    </footer>
+
+</body>
+</html>
