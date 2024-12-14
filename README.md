@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-## Date:13.12.2024
+## Date:14.12.2024
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -238,7 +238,7 @@ home.html
     </section>
 
     <footer>
-        <p>&copy; 2024 MP'S LITE. All rights reserved. | <a href="#">Privacy Policy</a></p>
+        <p>&copy; designed and developed by MOhanaprabha S. | <a href="#">Privacy Policy</a></p>
     </footer>
 
 </body>
@@ -447,7 +447,7 @@ contact.html
     </section>
 
     <footer>
-        <p>&copy; 2024 MP'S LITE. All rights reserved. | <a href="#">Privacy Policy</a></p>
+        <p>&copy; designed and by developed by Mohanaprabha S. | <a href="#">Privacy Policy</a></p>
     </footer>
 
 </body>
@@ -644,7 +644,7 @@ admin.html
     </div>
 
     <footer>
-        <p>&copy; 2024 MP'S LITE. All rights reserved. | <a href="home.html">Back to Home</a></p>
+        <p>&copy; designed and developed by Mohanaprabha S. | <a href="home.html">Back to Home</a></p>
     </footer>
 
 </body>
@@ -926,7 +926,7 @@ menu.html
     </div>
 
     <footer>
-        <p>&copy; 2024 MP'S LITE. All rights reserved. | <a href="home.html">Back to Home</a></p>
+        <p>&copy; designed and developed by Mohanaprabha S. | <a href="home.html">Back to Home</a></p>
     </footer>
 
 </body>
@@ -935,10 +935,9 @@ menu.html
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (118).png>)
-![alt text](<Screenshot (122).png>)
-![alt text](<Screenshot (123).png>)
-![alt text](<Screenshot (124).png>)
-
+![alt text](<Screenshot (126).png>)
+![alt text](<Screenshot (127).png>)
+![alt text](<Screenshot (128).png>)
+![alt text](<Screenshot (129).png>)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
